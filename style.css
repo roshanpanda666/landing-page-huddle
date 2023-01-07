@@ -1,0 +1,133 @@
+body{
+    background-color: blueviolet;
+    
+}
+.bgimg
+{
+    position: fixed;
+}
+
+.container
+{
+    display: flex;
+    flex-wrap:wrap;
+    position: absolute;
+}
+
+.leftside
+{
+    
+    width:800px;
+    float:left;
+    
+    height: 600px;
+    
+}
+.reviewimg
+{
+    padding:50px;
+    
+
+}
+
+.rightside
+{
+    height: 650px;
+    margin-top: 50px;
+    float:right;
+    
+    
+}
+.huddle
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    color: white;
+    grid-gap:10px;
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.icon
+{
+    margin-top: 30px;
+}
+.heading
+{
+    margin-top: 200px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+}
+.content
+{
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+.register
+{
+    border: 2px solid rgb(255, 255, 255);
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background-color:white;
+    color:blueviolet;
+    height: auto;
+    transition-duration: 0.5s;
+    
+}
+.register:hover
+{
+    color:white;
+    background-color:violet;
+    -webkit-box-shadow: 10px 11px 30px 4px rgba(255,0,255,1);
+    -moz-box-shadow: 10px 11px 30px 4px rgba(255,0,255,1);
+    box-shadow: 10px 11px 30px 4px rgba(255,0,255,1);
+    height: 70px;
+    width: 210px;
+}
+.links
+{
+    display: flex;
+    grid-gap:15px ;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+.insta:hover
+{
+    color:violet;
+    -webkit-box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+-moz-box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+
+    
+}
+.tweeter:hover
+{
+    color:violet;
+    -webkit-box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+-moz-box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+
+
+}
+.github:hover
+{
+    color:violet;
+    -webkit-box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+-moz-box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+box-shadow: 16px 1px 81px 62px rgba(179,0,255,1);
+
+}
+@media only screen and (max-width: 600px) {
+ 
+body{
+    display: none;
+}
+    
+  }
